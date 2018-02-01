@@ -1,0 +1,32 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head>
+        <meta charset="UTF-8">
+        <title>The New Wizards</title>
+            <link rel="icon" href=".\Hogwartscrest.png" type="image/png">
+            <link rel="stylesheet" type="text/css" href="decoration.css"/>
+    </head>
+    <body>
+        <header>
+            <a href="index.php"><img src="banner2.jpg" id="coverPhoto"/></a>
+        </header>
+        <nav id="top-menu">
+            <div id ="menu-buttons">
+                <a href="index.php">Home</a>
+                <a href="">Headmaster and Faculties</a>
+                <a href="">The New Wizards</a>
+                <a href="">Courses</a>
+                <a href="">Houses</a>
+                <a href="">Staff</a>
+                <a href="">Login</a>
+            </div>
+            
+        </nav>
+        <div id="wrapper"></div>
+        <div class="footer">
+        &copy; Hogwarts School of Witchcraft and Wizardy
+            </div>
+    </body>

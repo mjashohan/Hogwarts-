@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" type="text/css" href="decoration.css"/>
+</head>
+<body>
+  <h1 class="register-title">Welcome</h1>
+<form class="register" action="signupCheck.php" method="post" onsubmit="return validate() ">
+
+    <input type="text" class="register-input" name="FirstName" placeholder="First Name" required>
+    <input type="text" class="register-input need-float" name="LastName" placeholder="Last Name" required>
+    <input type="email" class="register-input" placeholder="Email address" id="email" name="Email" required>
+    <p class="error" id="errorE"></p>
+<input type="password" class="register-input" name="Password" placeholder="Password" id="pass"required>
+
+    <p class="error" id="errorP"></p>
+    <input type="password" class="register-input" placeholder=" Re-Enter Password" id="Rpass" required>
+    <p class="error" id="errorRp"></p>
+
+     <div class="register-switch extra">
+      <input type="radio" name="sex" value="0" id="sex_f" class="register-switch-input" checked  required>
+      <label for="sex_f" class="register-switch-label">Female</label>
+      <input type="radio" name="sex" value="1" id="sex_m" class="register-switch-input" required>
+      <label for="sex_m" class="register-switch-label">Male</label>
+    </div>
+    <input type="submit" name="submit" value="Create Account" class="register-button">
+
+  </form>
+  <div id="tohome"><a href="home.php">Home</a><br>
+  <a href="login_stat.php">Back to previous page</a></div>
+</body>
+</html>
+<script type="text/javascript" src="script/main.js"></script>
